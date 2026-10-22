@@ -2,6 +2,7 @@ package pterm
 
 import (
 	"io"
+	"slices"
 	"sync"
 )
 
@@ -71,6 +72,18 @@ func registerProgressBar(p *ProgressbarPrinter) {
 	activeProgressBarsMu.Lock()
 
 	ActiveProgressBarPrinters = append(ActiveProgressBarPrinters, p)
+	activeProgressBarsMu.Unlock()
+}
+
+func unregisterProgressBar(p *ProgressbarPrinter) {
+	activeProgressBarsMu.Lock()
+
+	ActiveProgressBarPrinters = slices.DeleteFunc(
+		ActiveProgressBarPrinters,
+		func(pp *ProgressbarPrinter) bool {
+			return pp == p
+		},
+	)
 	activeProgressBarsMu.Unlock()
 }
 

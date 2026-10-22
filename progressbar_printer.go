@@ -36,6 +36,7 @@ var DefaultProgressbar = ProgressbarPrinter{
 	ShowCount:                 true,
 	ShowPercentage:            true,
 	ShowElapsedTime:           true,
+	StopOnFinish:              true,
 	MaxWidth:                  80,
 	Writer:                    os.Stderr,
 }
@@ -70,6 +71,7 @@ type ProgressbarPrinter struct {
 	ShowTitle       bool
 	ShowPercentage  bool
 	RemoveWhenDone  bool
+	StopOnFinish    bool
 
 	TitleStyle *Style
 	BarStyle   *Style
@@ -207,6 +209,12 @@ func (p ProgressbarPrinter) WithShowTitle(b ...bool) *ProgressbarPrinter {
 // WithShowPercentage sets if the completed percentage should be displayed in the ProgressbarPrinter.
 func (p ProgressbarPrinter) WithShowPercentage(b ...bool) *ProgressbarPrinter {
 	p.ShowPercentage = internal.WithBoolean(b)
+	return &p
+}
+
+// WithStopOnFinish sets if Add method also stop the ProgressbarPrinter when finished.
+func (p ProgressbarPrinter) WithStopOnFinish(b ...bool) *ProgressbarPrinter {
+	p.StopOnFinish = internal.WithBoolean(b)
 	return &p
 }
 
@@ -501,7 +509,7 @@ func (p *ProgressbarPrinter) Add(count int) *ProgressbarPrinter {
 
 	p.updateProgress()
 
-	if reachedEnd {
+	if reachedEnd && p.StopOnFinish {
 		p.updateProgress()
 		_, _ = p.Stop()
 	}
@@ -569,6 +577,8 @@ func (p *ProgressbarPrinter) Stop() (*ProgressbarPrinter, error) {
 	} else {
 		Fprintln(writer)
 	}
+
+	unregisterProgressBar(p)
 
 	return p, nil
 }
