@@ -1,6 +1,6 @@
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/unhealme/pterm"
 
 func main() {
 	// A Style combines any number of colors and text options.

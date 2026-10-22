@@ -1,6 +1,6 @@
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/unhealme/pterm"
 
 func main() {
 	// Show every built-in foreground (Fg*) and background (Bg*) color in one

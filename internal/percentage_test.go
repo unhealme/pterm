@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/unhealme/pterm/internal"
 )
 
 func TestPercentage(t *testing.T) {

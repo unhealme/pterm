@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/pterm/pterm/putils"
+	"github.com/unhealme/pterm/putils"
 )
 
 // User is a regular struct; no tags or interfaces are needed.

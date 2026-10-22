@@ -1,6 +1,6 @@
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/unhealme/pterm"
 
 func main() {
 	// With WithHasHeader the first row is styled as the header. The CJK

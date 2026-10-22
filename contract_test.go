@@ -33,7 +33,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/pterm/pterm"
+	"github.com/unhealme/pterm"
 )
 
 // stripANSI removes all ANSI escape codes (colors, styles, hyperlinks) from s.

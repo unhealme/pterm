@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/pterm/pterm"
-	"github.com/pterm/pterm/internal/snapshot"
+	"github.com/unhealme/pterm"
+	"github.com/unhealme/pterm/internal/snapshot"
 )
 
 // testSnapshot renders the same output twice — once with styling enabled and

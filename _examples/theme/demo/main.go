@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/pterm/pterm"
+	"github.com/unhealme/pterm"
 )
 
 func main() {

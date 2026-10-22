@@ -3,8 +3,8 @@ package pterm
 import (
 	"strings"
 
-	"github.com/pterm/pterm/internal"
-	"github.com/pterm/pterm/internal/color"
+	"github.com/unhealme/pterm/internal"
+	"github.com/unhealme/pterm/internal/color"
 )
 
 // rgbColorLevel returns the color depth at which RGB printers render.

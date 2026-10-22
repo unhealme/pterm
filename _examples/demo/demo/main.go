@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pterm/pterm"
-	"github.com/pterm/pterm/putils"
+	"github.com/unhealme/pterm"
+	"github.com/unhealme/pterm/putils"
 )
 
 var speedup = flag.Bool("speedup", false, "Speed up the demo")

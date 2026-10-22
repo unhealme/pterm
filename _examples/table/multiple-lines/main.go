@@ -1,6 +1,6 @@
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/unhealme/pterm"
 
 func main() {
 	// Cells may contain newlines; a row grows to fit its tallest cell.

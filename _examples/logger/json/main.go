@@ -1,6 +1,6 @@
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/unhealme/pterm"
 
 func main() {
 	// The JSON formatter emits one JSON object per log line, which is handy

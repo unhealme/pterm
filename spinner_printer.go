@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/unhealme/pterm/internal"
 )
 
 var activeSpinnerPrinters []*SpinnerPrinter

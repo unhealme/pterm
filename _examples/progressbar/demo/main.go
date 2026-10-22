@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pterm/pterm"
+	"github.com/unhealme/pterm"
 )
 
 // Pretend we have a list of packages to download.

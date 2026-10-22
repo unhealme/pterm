@@ -15,7 +15,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/pterm/pterm"
+	"github.com/unhealme/pterm"
 )
 
 // boxLines strips ANSI codes from a rendered box and returns its lines.

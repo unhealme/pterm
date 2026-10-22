@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/pterm/pterm"
+	"github.com/unhealme/pterm"
 )
 
 // selectPrompt is passed to every Show() call in this file. It doubles as the

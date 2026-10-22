@@ -54,7 +54,7 @@ func (s *SlogHandler) Handle(_ context.Context, record slog.Record) error {
 
 	logger := s.logger
 
-	// Must be done here, see https://github.com/pterm/pterm/issues/608#issuecomment-1876001650
+	// Must be done here, see https://github.com/unhealme/pterm/issues/608#issuecomment-1876001650
 	if logger.CallerOffset == 0 {
 		logger = logger.WithCallerOffset(3)
 	}

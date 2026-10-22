@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/pterm/pterm"
-	"github.com/pterm/pterm/internal"
+	"github.com/unhealme/pterm"
+	"github.com/unhealme/pterm/internal"
 )
 
 // showTextInput runs the given text input prompt (which must terminate

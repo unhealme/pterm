@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/pterm/pterm"
+	"github.com/unhealme/pterm"
 )
 
 // The default checkmark must render the well-known glyphs (the styling around

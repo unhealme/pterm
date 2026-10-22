@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/unhealme/pterm/internal"
 )
 
 // LogLevel is the severity level used by the Logger.

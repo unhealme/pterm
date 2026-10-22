@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/pterm/pterm"
+	"github.com/unhealme/pterm"
 )
 
 func TestCenterPrinterCentersSingleLine(t *testing.T) {

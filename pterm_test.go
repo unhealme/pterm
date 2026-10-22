@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/pterm/pterm"
+	"github.com/unhealme/pterm"
 )
 
 // EnableStyling/DisableStyling must flip both RawOutput and PrintColor

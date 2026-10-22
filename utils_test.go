@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pterm/pterm"
+	"github.com/unhealme/pterm"
 )
 
 var terminalWidth = 80
@@ -60,7 +60,7 @@ func leakedPtermGoroutines() string {
 
 		n := runtime.Stack(buf, true)
 		for stack := range strings.SplitSeq(string(buf[:n]), "\n\n") {
-			if strings.Contains(stack, "github.com/pterm/pterm.") && !strings.Contains(stack, "pterm_test.TestMain") {
+			if strings.Contains(stack, "github.com/unhealme/pterm.") && !strings.Contains(stack, "pterm_test.TestMain") {
 				leaks = append(leaks, stack)
 			}
 		}

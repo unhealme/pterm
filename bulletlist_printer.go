@@ -4,7 +4,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/unhealme/pterm/internal"
 )
 
 // BulletListItem is able to render a ListItem.

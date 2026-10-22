@@ -1,6 +1,6 @@
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/unhealme/pterm"
 
 func main() {
 	// Panels form a 2D grid: the outer slice holds rows, the inner slices hold

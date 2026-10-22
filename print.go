@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/unhealme/pterm/internal"
 )
 
 // defaultWriter is the package-level default output writer.

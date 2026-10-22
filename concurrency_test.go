@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/pterm/pterm"
+	"github.com/unhealme/pterm"
 )
 
 // TestConcurrencySmoke hammers pterm from many goroutines at once while the

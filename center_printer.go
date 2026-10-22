@@ -6,7 +6,7 @@ import (
 
 	"github.com/mattn/go-runewidth"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/unhealme/pterm/internal"
 )
 
 // DefaultCenter is the default CenterPrinter.

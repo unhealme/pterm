@@ -10,7 +10,7 @@ import (
 	"atomicgo.dev/keyboard"
 	"atomicgo.dev/keyboard/keys"
 	"github.com/lithammer/fuzzysearch/fuzzy"
-	"github.com/pterm/pterm/internal"
+	"github.com/unhealme/pterm/internal"
 )
 
 var (

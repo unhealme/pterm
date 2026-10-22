@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/pterm/pterm/internal/color"
+	"github.com/unhealme/pterm/internal/color"
 )
 
 // PrintColor is false if PTerm should not print colored output.

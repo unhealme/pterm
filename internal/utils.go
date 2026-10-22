@@ -4,7 +4,7 @@ import (
 	"os"
 	"regexp"
 
-	"github.com/pterm/pterm/internal/color"
+	"github.com/unhealme/pterm/internal/color"
 )
 
 var osc8Regex = regexp.MustCompile(`\x1b\]8;;[^\x07]*?(?:\x07|\x1b\\)(.*?)\x1b\]8;;(?:\x07|\x1b\\)`)

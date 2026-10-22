@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/pterm/pterm"
+	"github.com/unhealme/pterm"
 )
 
 // The Sprint* family must behave exactly like the fmt equivalents.

@@ -3,7 +3,7 @@ package main
 import (
 	"strings"
 
-	"github.com/pterm/pterm"
+	"github.com/unhealme/pterm"
 )
 
 // Demonstrates RGBStyle: fading the foreground and background independently,

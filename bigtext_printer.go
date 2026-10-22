@@ -6,8 +6,8 @@ import (
 
 	"github.com/mattn/go-runewidth"
 
-	"github.com/pterm/pterm/internal"
-	"github.com/pterm/pterm/internal/color"
+	"github.com/unhealme/pterm/internal"
+	"github.com/unhealme/pterm/internal/color"
 )
 
 // Letters is a slice of Letter.

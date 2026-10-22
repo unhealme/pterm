@@ -3,7 +3,7 @@ package main
 import (
 	"log/slog"
 
-	"github.com/pterm/pterm"
+	"github.com/unhealme/pterm"
 )
 
 func main() {

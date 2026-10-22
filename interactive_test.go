@@ -21,7 +21,7 @@ import (
 	"atomicgo.dev/keyboard"
 	"github.com/stretchr/testify/require"
 
-	"github.com/pterm/pterm"
+	"github.com/unhealme/pterm"
 )
 
 // interactiveTimeout is the maximum time an interactive Show() call may take

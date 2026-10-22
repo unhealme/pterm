@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/pterm/pterm/internal/color"
+	"github.com/unhealme/pterm/internal/color"
 )
 
 func TestSequence(t *testing.T) {

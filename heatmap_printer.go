@@ -7,7 +7,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/unhealme/pterm/internal"
 )
 
 // rgbLegendSteps is the number of cells the legend fades through in RGB mode.

@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/pterm/pterm"
+	"github.com/unhealme/pterm"
 )
 
 // startTestSpinner starts a spinner writing into a fresh syncBuffer. The huge
@@ -180,7 +180,7 @@ func TestSpinnerPrinter_StopKeepsLastFrameWithoutRemoveWhenDone(t *testing.T) {
 
 // TestSpinnerPrinter_RawOutput covers the raw output mode: no escape codes are
 // emitted, UpdateText prints plain lines, and Stop still deactivates the
-// spinner (regression for https://github.com/pterm/pterm/issues/763).
+// spinner (regression for https://github.com/unhealme/pterm/issues/763).
 func TestSpinnerPrinter_RawOutput(t *testing.T) {
 	restoreGlobalStyling(t)
 	pterm.DisableStyling()

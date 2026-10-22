@@ -1,7 +1,7 @@
 package pterm
 
 import (
-	"github.com/pterm/pterm/internal/color"
+	"github.com/unhealme/pterm/internal/color"
 )
 
 // resetSequence is the ANSI escape sequence that resets all styling.

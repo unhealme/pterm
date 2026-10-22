@@ -12,7 +12,7 @@ import (
 	"atomicgo.dev/cursor"
 	"atomicgo.dev/schedule"
 
-	"github.com/pterm/pterm/internal"
+	"github.com/unhealme/pterm/internal"
 )
 
 // ActiveProgressBarPrinters contains all running ProgressbarPrinters.

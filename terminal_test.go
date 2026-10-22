@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/term"
 
-	"github.com/pterm/pterm"
+	"github.com/unhealme/pterm"
 )
 
 // restoreForcedTerminalSize puts the terminal size back to the value TestMain

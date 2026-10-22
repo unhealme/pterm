@@ -1,6 +1,6 @@
 package main
 
-import "github.com/pterm/pterm"
+import "github.com/unhealme/pterm"
 
 func main() {
 	longText := "This is a custom paragraph printer. As you can see, no words are separated, " +
